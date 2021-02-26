@@ -18,7 +18,7 @@ const SignIn = () => {
     <SignInContainer>
       <SignInLeft>
         <h1 style={{ color: "white", fontSize: "3rem", marginBottom: "1rem" }}>
-          Idovation <span style={{ color: "#6C63FF" }}>a space for share</span>
+          Ideovative <span style={{ color: "#6C63FF" }}>a space to share</span>
         </h1>
         <p
           style={{
@@ -34,7 +34,10 @@ const SignIn = () => {
           much more. This platform is build for Learning Purpose. “Make a habit
           of trying new things”
         </p>
-        <button onClick={handleSignIn} style={{ cursor: "pointer" }}>
+        <button
+          onClick={handleSignIn}
+          style={{ cursor: "pointer", fontWeight: "normal" }}
+        >
           <img src={GoogleIcon} alt="google" />
           Signin with Google
         </button>

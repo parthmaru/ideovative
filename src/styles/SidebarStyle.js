@@ -38,7 +38,7 @@ const SideContainer = styled.div`
 
   @media (max-width: 450px) {
     flex: 0.4;
-    margin-top: 8vh;
+    margin-top: 7.5vh;
   }
 `;
 

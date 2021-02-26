@@ -22,7 +22,7 @@ const Header = () => {
       {/* Header Left */}
       <HeaderLeft>
         <img src={icon} alt="" style={{ marginRight: ".8rem" }} />
-        <h1 style={{ fontSize: "1.5rem" }}>Ideovation</h1>
+        <h1 style={{ fontSize: "1.5rem" }}>Ideovative</h1>
       </HeaderLeft>
       {/* Header Right */}
       <HeaderRight>
