@@ -7,6 +7,21 @@ const MessageContainer = styled.div`
   overflow-y: scroll;
   flex-grow: 1;
   color: white;
+  height: 75%;
+
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 10px;
+  }
 `;
 
 const UserMessage = styled.div`

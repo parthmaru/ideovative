@@ -10,7 +10,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebase";
 
 const Header = () => {
-  const [user, , loading] = useAuthState(auth);
+  const [user] = useAuthState(auth);
 
   const handleSignOut = (e) => {
     e.preventDefault();

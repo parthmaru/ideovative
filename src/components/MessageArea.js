@@ -13,7 +13,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import FlipMove from "react-flip-move";
 
 const MessageArea = () => {
-  const [user, userLoading] = useAuthState(auth);
+  const [user] = useAuthState(auth);
 
   const roomId = useSelector(selectRoomId);
   const [messageText, setMessageText] = useState("");
@@ -78,7 +78,7 @@ const MessageArea = () => {
             type="text"
             value={messageText}
             onChange={(e) => setMessageText(e.target.value)}
-            placeholder="Send your Message "
+            placeholder="Type a Message and press Enter "
           />
           <button type="submit" hidden>
             Submit
